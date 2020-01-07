@@ -1,0 +1,28 @@
+<h2>biayn too {{ tedad }} baba </h2> 
+
+
+<a href="{% url 'home' %}">go back</a>
+
+<h4>inehasha</h4>
+
+{{fulltext}}
+
+<br/><br/>
+
+<h2>count</h2>
+
+{{ dictionary }}
+<br>
+
+{% for word, count in dictionary%}
+
+{{word}}
+<br/>
+{{count}}
+<br/>
+
+{% endfor %}
+
+<form action="{% url 'about' %}">
+	<input type="submit" value="about">
+</form>
