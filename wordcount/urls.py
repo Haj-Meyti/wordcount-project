@@ -22,7 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('', views.homepage),
     path('golabi/', nmidonm.yechizi),
-    path('sib/', nmidonm.hamin),
+    path('goje/', nmidonm.hamin),
     path('', views.home , name='home'),
     path('count/', views.count , name='count' ),
     path('about/', views.about , name='about' ),
